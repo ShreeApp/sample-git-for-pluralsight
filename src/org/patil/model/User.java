@@ -3,7 +3,7 @@ package org.patil.model;
 public class User {
 	 
 	private String name;
-	private String age;
+	private int age;
 
 	public String getName() {
 		return name;
@@ -13,17 +13,17 @@ public class User {
 		this.name = name;
 	}
 
-	@Override
-	public String toString() {
-		return "User [name=" + name + "]";
-	}
-
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-
-	public void setAge(String age) {
+	
+	public void setAge(int age) {
 		this.age = age;
+	}
+	
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + "]";
 	}
 	
 	
