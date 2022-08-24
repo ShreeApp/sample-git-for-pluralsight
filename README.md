@@ -1,3 +1,3 @@
-# sample-git-for-pluralsight
+# Welcome to sample-git-for-pluralsight
 
-Sample for Pluralsight course Eclipse for Java Devs
+This is Sample for Pluralsight course Eclipse for Java Devs, used to learn Git pull, push, fetch.
